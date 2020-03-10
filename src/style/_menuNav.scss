@@ -1,0 +1,49 @@
+@import './colors';
+@import './keyframes';
+@import './menuNavBtn';
+@import './nameLogo';
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  overflow: auto;
+  z-index: 1999;
+  transition: width ease-in .2s;
+
+  align-items: center;
+  background: $base-light-dark;
+  border-left: 1px solid $base-light-dark;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  // width is getting manipulated in the MenuNav component
+
+  ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+
+    li {
+      padding: 1rem;
+      text-decoration: none;
+      font-size: 2rem;
+      align-self: center;
+    }
+  }
+
+  .nav-link {
+    text-decoration: none;
+  }
+}
+
+.current {
+  color: $stand-out-two;
+  text-decoration: underline;
+}
+
+

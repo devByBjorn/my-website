@@ -1,0 +1,15 @@
+@import './colors';
+.nav-menu-btn {
+  background: $base-light;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 2999;
+}
+
+@media(min-width: 850px) {
+  .nav-menu-btn {
+    top: 10rem;
+    right: 12rem;
+  }
+}

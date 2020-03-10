@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: $base-darker;
+  margin-bottom: 5rem;
+  margin-left: 1rem;
+  margin-right: 30rem;
+  max-width: 100rem;
+  min-height: 90vh;
+  min-width: 40rem;
+  padding: 1.5rem;
+}
+
+@media(min-width: 850px) {
+  .container {
+    margin-left: 10%;
+  }
+}
+
+@media(max-width: 500px)  {
+  .container {
+    min-width: 95vw;
+  }
+}
