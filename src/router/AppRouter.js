@@ -15,7 +15,6 @@ const AppRouter = () => (
   <BrowserRouter>
 
     <div>
-      <NameLogo />
       <MenuNav />
       <Switch>
         <Route exact path="/" component={IndexPage} />

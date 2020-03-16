@@ -1,22 +1,20 @@
-.main-index-content {
-
 
   .clipArt-greeting-box {
     align-items: flex-end;
     display: flex;
     font-weight: bolder;
-    margin-left: -8rem;
+    margin-left: -7rem;
   
     .clipArt-item {
-      min-width: 10rem;
-      max-width:30rem;
+      min-width: 5rem;
+      max-width:20rem;
       height: auto;
     }
 
     .greeting-item {
       font-size: 2.5rem;
       max-width: 45rem;
-      padding: 1.5rem;
+      padding: 1rem;
       padding-bottom: .5rem;
   
       .hi {
@@ -44,7 +42,7 @@
       text-decoration: underline;
     }
   }
-}
+
 
 @media(max-width: 500px) {
   .main-index-content {
@@ -81,19 +79,28 @@
   .main-index-content {
     height: auto;
 
+    .clipArt-greeting-box {
+      
+    }
+
     .clipArt-item {
       display: none;
+    }
+  
+    .short-bio {
+      margin-left: -6rem;
     }
   }
 } 
 
-@media(min-width: 500px) and (max-width: 1024px) {
-  .main-index-content {
+@media(min-width: 500px) and (max-width: 770px) {
+
+
     .clipArt-greeting-box {
       margin-left: -1rem;
     }
     .clipArt-item {
       display: none;
     }
-  }
+  
 }

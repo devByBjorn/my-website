@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 const IndexPage = () => (
 
   <div className="container">
-    <main className="main-index-content">
+    <main className="main-index-content margin-top-4">
       <div className="clipArt-greeting-box">
 
         <Img
@@ -21,10 +21,10 @@ const IndexPage = () => (
       </div>
 
       <div className="short-bio">
-        <p>I grew up in a small town just outside of Uppsala, Sweden. Currently I'm located in Stockholm (also Sweden). I'm learning to build and style stuff for the web. If you are intereseted; check out <NavLink to="/portfolio">my portfolio</NavLink>.</p>
+        <p>Lately I've taking on to learn the sweet since called boxing. Also, I'm continuously learning how to build and style stuff for the web. If you're interested; check out <NavLink to="/portfolio">my portfolio</NavLink>.</p>
 
         <p>If you like to come in contact with me, don't
-        hesitate to send an <a href="mailto:devbybjorn@gmail.com">email</a>.</p>
+        hesitate to send me an <a href="mailto:devbybjorn@gmail.com">email</a>.</p>
       </div>
     </main>
   </div>

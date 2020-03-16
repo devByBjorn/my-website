@@ -25,9 +25,6 @@ module.exports = {
         'sass-loader',
       ]
     }, {
-      test: /\.svg$/,
-      loader: 'svg-inline-loader'
-    }, {
       test: /\.(gif|png|jpe?g|svg)$/i,
       use: [
         'file-loader',

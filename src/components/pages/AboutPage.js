@@ -3,7 +3,7 @@ import React from 'react'
 const AboutPage = () => (
   <div>
     <div className="container">
-      <h3 className="sub-heading margin-top-4">A Backstory</h3>
+      <h3 className="sub-heading margin-top-4">Backstory</h3>
       <p className="p">In the fall of 2019, I took a leap. I decided to change careers, from banker to developer. I had been learning and doing front end development, HTML, CSS and JavaScript, on the side for quite some time and I felt like this was the thing I wanted to do. I still do(phew). So, what made me take this leap? Did I not like my job? Was I not getting along with my employer? Was I fired?? Actually. I was happy in my role, had a great relationship with management and I was thriving. But something was missing. </p>
 
       <h3 className="sub-heading">Why Front-End?</h3>

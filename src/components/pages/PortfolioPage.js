@@ -7,7 +7,7 @@ import projectFour from '../img/markets-in-time.png'
 
 const PortfolioPage = () => (
   <div>
-    <div className="container margin-top-8">
+    <div className="container margin-top-4">
 
       <ProjectComponent
         src={projectFour}

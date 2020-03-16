@@ -10,10 +10,16 @@
   max-width: 100rem;
   min-height: 90vh;
   min-width: 40rem;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 @media(min-width: 850px) {
+  .container {
+    margin-left: 10%;
+  }
+}
+
+@media(min-width: 500px) and (max-width: 770px) {
   .container {
     margin-left: 10%;
   }
@@ -24,3 +30,4 @@
     min-width: 95vw;
   }
 }
+
