@@ -1,0 +1,46 @@
+/* Style the accordion section */
+.accordion-section {
+  display: flex;
+  flex-direction: column;
+
+  .accordion {
+    display: flex;
+    align-items: center;
+  
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+  }
+  
+  .sub-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  
+    .img {
+      width:3rem
+    }
+  }
+  
+  .icon {
+    color: $stand-out-one;
+    font-size: 1rem;
+    transition: transform 0.6s ease;
+  }
+  
+  .rotate {
+    transform: rotate(90deg);
+  }
+  
+  .content {
+    overflow: auto;
+    transition: max-height 0.6s ease;
+  }
+
+  .p {
+    padding-top: 2rem;
+  }
+}
+

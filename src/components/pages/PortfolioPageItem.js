@@ -1,5 +1,5 @@
 import React from 'react'
-import { Img, H3, H4, P, A_Blank, } from '../tags/Tags'
+import { Img, H3, H4, P, A_Blank, Paragraph, } from '../tags/Tags'
 
 export const ProjectComponent = (props) => (
   <div>
@@ -20,7 +20,7 @@ export const ProjectComponent = (props) => (
           className="sub-heading tech"
         />
 
-        <P
+        <Paragraph
           paragraph={props.techContent}
           className="p"
         />
@@ -30,7 +30,7 @@ export const ProjectComponent = (props) => (
           className="sub-heading about"
         />
 
-        <P
+        <Paragraph
           paragraph={props.aboutContent}
           className="p"
         />

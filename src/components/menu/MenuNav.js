@@ -14,18 +14,9 @@ class MenuNav extends React.Component {
 
   toggleMenu = () => {
     let width = this.state.width
-    if (width === '0rem') {
-      this.setState(() => ({
-        width: '30rem',
-        textContent: 'Close',
-      }))
-    }
-    if (width !== '0rem') {
-      this.setState(() => ({
-        width: '0rem',
-        textContent: 'Menu'
-      }))
-    }
+    width === '0rem'
+      ? this.setState(() => ({ width: '30rem', textContent: 'Close', }))
+      : this.setState(() => ({ width: '0rem', textContent: 'Menu', }))
   }
   render() {
     return (

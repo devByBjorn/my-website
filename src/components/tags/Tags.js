@@ -23,10 +23,10 @@ export const H4 = (props) => (
   >{props.heading}</h4>
 )
 
-export const P = (props) => (
+export const Paragraph = (props) => (
   <p
     className={props.className}
-  >{props.paragraph}</p>
+  >{props.text}</p>
 )
 
 export const A_Blank = (props) => (

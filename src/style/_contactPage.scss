@@ -1,5 +1,51 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 95vh;
+}
+
 .contact-logos {
   display: flex;
-  width: 100%;
+  height: 100%;
   justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+
+  li {
+    font-size: 1.5rem;
+  }
+}
+
+.credit {
+  align-self: center;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 18rem;
+
+  span {
+    color: lighten($base-dark, 20%);
+    display: block;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+@media(max-width: 500px) {
+  .contact-logos {
+    flex-direction: column;
+
+    .img {
+      max-width: 20rem;
+    }
+  }
+
+
+}
+
+@media(min-width: 850px) {
+
 }
