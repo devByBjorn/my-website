@@ -1,11 +1,15 @@
-@import './base';
-@import './container';
-@import './utilities';
+@import './reusables/base';
+@import './reusables/container';
+@import './reusables/utilities';
+@import './reusables/zIndexOrder';
 
-@import './menuNav';
+@import './navigation-menu/homeIcon';
+@import './navigation-menu/menuNav';
+@import './navigation-menu/mobileTopBackground';
 
-@import './aboutPage';
-@import './contactPage';
-@import './indexPage';
-@import './portfolioPage';
-@import './resumePage';
+@import './about/aboutPage';
+
+@import './contact/contactPage';
+@import './index/indexPage';
+@import './portfolio/portfolioPage';
+

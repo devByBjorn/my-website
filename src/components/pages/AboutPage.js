@@ -1,13 +1,11 @@
 import React from 'react'
 import AboutAccordion from './AboutAccordion'
-import ReactDOM from 'react-dom'
-import Paragraph from '../tags/Tags'
 import {
   backstory,
   whyFrontEnd,
   whatIBring,
 } from './AboutParagraphs'
-
+import HomeIcon from '../menu/HomeIcon'
 class AboutPage extends React.Component {
   state = {
     backstory: backstory,
@@ -18,7 +16,8 @@ class AboutPage extends React.Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <HomeIcon />
+        <div className="container margin-top-4">
           <div className="accordion-container">
             <AboutAccordion
               heading='Backstory'

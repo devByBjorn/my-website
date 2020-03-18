@@ -1,10 +1,10 @@
-@import './colors';
+@import '../reusables/colors';
 .nav-menu-btn {
   background: $base-light;
   position: fixed;
   top: 2rem;
   right: 2rem;
-  z-index: 2999;
+  z-index: $menuBtn;
 }
 
 @media(min-width: 850px) {

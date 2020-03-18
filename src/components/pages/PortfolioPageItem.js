@@ -1,11 +1,10 @@
 import React from 'react'
 import { Img, H3, H4, P, A_Blank, Paragraph, } from '../tags/Tags'
+import HomeIcon from '../menu/HomeIcon'
 
 export const ProjectComponent = (props) => (
   <div>
     <div className="project-container">
-
-
       <div className="project-img">
         <Img src={props.src} />
       </div>
@@ -21,7 +20,7 @@ export const ProjectComponent = (props) => (
         />
 
         <Paragraph
-          paragraph={props.techContent}
+          text={props.techContent}
           className="p"
         />
 
@@ -31,7 +30,7 @@ export const ProjectComponent = (props) => (
         />
 
         <Paragraph
-          paragraph={props.aboutContent}
+          text={props.aboutContent}
           className="p"
         />
 

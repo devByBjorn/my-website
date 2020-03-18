@@ -1,15 +1,14 @@
 .name {
   font-size: 1.5rem;
   font-weight: 100;
-  padding: 2rem 1rem;
+  z-index: $nameAndHomeLogo;
 
   .logo {
     position: fixed;
     left: 2rem;
-    top: 2.5rem;
+    top: 2rem;
 
     color: $base-dark;
-    z-index: 2999;
   }
 }
 
@@ -18,14 +17,5 @@
     position: fixed;
     left: 0;
     top: 0;
-
-    background: rgba(255,255,255,.95);
-    height: 6rem;
-    min-width: 100vw;
-    z-index: 1999;
-
-    .logo {
-      z-index: 999;
-    }
   }
 }

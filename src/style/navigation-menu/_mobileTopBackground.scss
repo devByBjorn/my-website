@@ -1,0 +1,12 @@
+@media(max-width: 850px) {
+  .mobile-top-background{
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    background: rgba(255,255,255,.95);
+    height: 6rem;
+    min-width: 100vw;
+    z-index:$mobileTopBackground;
+  }
+}

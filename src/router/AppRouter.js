@@ -6,8 +6,7 @@ import ContactPage from '../components/pages/ContactPage'
 import IndexPage from '../components/pages/IndexPage'
 import PortfolioPage from '../components/pages/PortfolioPage'
 import Page404 from '../components/pages/Page404'
-import ResumePage from '../components/pages/ResumePage'
-import NameLogo from '../components/menu/NameLogo'
+import MobileTopBackground from '../components/menu/MobileTopBackground'
 
 // <Route path="/resume" component={ResumePage} />
 
@@ -15,6 +14,7 @@ const AppRouter = () => (
   <BrowserRouter>
 
     <div>
+      <MobileTopBackground />
       <MenuNav />
       <Switch>
         <Route exact path="/" component={IndexPage} />

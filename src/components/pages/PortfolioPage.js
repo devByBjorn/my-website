@@ -4,16 +4,17 @@ import projectOne from '../img/guess-the-capital.png'
 import projectTwo from '../img/pricing-component.PNG'
 import projectThree from '../img/the_pfqt.PNG'
 import projectFour from '../img/markets-in-time.png'
+import HomeIcon from '../menu/HomeIcon'
 
 const PortfolioPage = () => (
   <div>
-
+    <HomeIcon />
     <div className="container margin-top-4">
       <ProjectComponent
         src={projectFour}
         heading="Markets in Time"
         techHeading="Technologies"
-        techContent="HTML | CSS | JavaScript | Webpack"
+        techContent="HTML | CSS | JavaScript | Webpack | Babel"
         aboutHeading="About"
         aboutContent="A website focused on delivering an easy overview of time, market hours and opening info of various stock markets around the world."
         projectUrl="https://www.marketsintime.com/"
@@ -23,7 +24,7 @@ const PortfolioPage = () => (
         src={projectThree}
         heading="The Pulp Fiction Qoute Tribute"
         techHeading="Technologies"
-        techContent="HTML | Sass | JavaScript | Webpack"
+        techContent="HTML | Sass | JavaScript | Webpack | Babel"
         aboutHeading="About"
         aboutContent="A webiste tribute to the the movie Pulp Fiction. Generates qoutes from the film and let's you save your favorites. If you feel creative you can write, save and edit your own woutes as well"
         projectUrl="https://sharp-engelbart-11818a.netlify.com/"
@@ -33,7 +34,7 @@ const PortfolioPage = () => (
         src={projectTwo}
         heading="Price Packages"
         techHeading="Technologies"
-        techContent="HTML | Sass | JavaScript | Webpack"
+        techContent="HTML | Sass | JavaScript | Webpack | Babel"
         aboutHeading="About"
         aboutContent="HTML and CSS challange from frontendmentor.io. I choosed to do the functionality with JavaScript and added a minor feature; darken the active subscription period on toggle."
         projectUrl="https://xenodochial-bartik-7585b3.netlify.com"

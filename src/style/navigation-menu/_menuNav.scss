@@ -1,5 +1,5 @@
-@import './colors';
-@import './keyframes';
+@import '../reusables/colors';
+@import '../reusables/keyframes';
 @import './menuNavBtn';
 @import './nameLogo';
 
@@ -10,7 +10,7 @@
   bottom: 0;
 
   overflow: auto;
-  z-index: 1999;
+  z-index: $menuNav;
   transition: width ease-in .2s;
 
   align-items: center;
