@@ -10,3 +10,9 @@
 
   z-index: $nameAndHomeLogo;
 }
+
+@media(min-width: 1220px) {
+  .home-icon {
+    width:4rem;
+  }
+}

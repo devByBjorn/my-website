@@ -21,7 +21,7 @@ export const ProjectComponent = (props) => (
 
         <Paragraph
           text={props.techContent}
-          className="p"
+          className="p tech-content"
         />
 
         <H4

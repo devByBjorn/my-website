@@ -7,6 +7,7 @@
 }
 
 .main-heading {
+  color: $base-darker;
   font-size: 4rem;
 }
 
@@ -19,7 +20,8 @@
 }
 
 .p {
-  font-size: 1.5rem;
+  color: $base-dark;
+  font-size: 2.5rem;
   letter-spacing: 0;
   line-height: 1.5;
   padding: 1rem 0;
@@ -31,4 +33,45 @@
 
 .margin-top-8 {
   margin-top: 8rem;
+}
+
+.underline {
+  border-top: 5px solid $base-dark;
+  height: 5px;
+  max-width: 90rem;
+}
+
+@media(max-width: 500px) {
+
+  .main-heading {
+    font-size: 3rem;
+  }
+  
+  .sub-heading {
+    font-size: 2.5rem;
+  }
+
+  .p {
+    font-size: 1.5rem;
+  }
+
+  .underline {
+    max-width: 80vw;
+  }
+}
+
+@media(min-width: 1220px) {
+  .btn {
+    border: 3px solid $base-dark;
+    font-size: 2rem;
+    padding: .75rem 1.5rem;
+  }
+
+  .main-heading {
+    font-size: 6rem;
+  }
+  
+  .sub-heading {
+    font-size: 5rem;
+  }
 }

@@ -47,3 +47,12 @@
 }
 
 
+@media(min-width: 1220px) {
+  .main-nav {
+    ul {
+      li {
+        font-size: 3rem;  
+      }
+    }
+  }
+}

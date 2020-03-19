@@ -21,7 +21,7 @@ const IndexPage = () => (
             <h2><span className="hi">Hi</span>, I'm Björn. I'm a <span className="profession">Front-End Developer</span> fitness enthusiast & learner of things. </h2>
           </div>
         </div>
-
+        <div className="underline" />
         <div className="short-bio">
           <p className="p">Lately I've been learning the sweet since of boxing. Also, I'm continuously learning how to build and style stuff for the web. If you're interested; check out <NavLink to="/portfolio">my portfolio</NavLink>.</p>
 

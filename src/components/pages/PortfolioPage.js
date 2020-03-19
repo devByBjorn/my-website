@@ -9,7 +9,7 @@ import HomeIcon from '../menu/HomeIcon'
 const PortfolioPage = () => (
   <div>
     <HomeIcon />
-    <div className="container margin-top-4">
+    <div className="container">
       <ProjectComponent
         src={projectFour}
         heading="Markets in Time"

@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-around;
   min-height: 95vh;
+  width: 102rem;
 }
 
 .contact-logos {
@@ -37,15 +38,29 @@
 @media(max-width: 500px) {
   .contact-logos {
     flex-direction: column;
+    justify-content: space-around;
 
     .img {
       max-width: 20rem;
     }
   }
-
-
 }
 
-@media(min-width: 850px) {
+@media(min-width: 1220px) {
+  .contact-logos {
+    justify-content: space-between;
 
+    .img {
+      width: 40rem
+    }
+
+    li {
+      font-size: 2.5rem;
+    }
+  }
+
+  .credit {
+    font-size: 2rem;
+    width: 25rem;
+  }
 }

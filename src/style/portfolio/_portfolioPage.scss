@@ -1,27 +1,30 @@
 
   .project-container {
-    margin-top: 5rem;
+    margin-top: 10rem;
 
-    .project-img {
-      box-shadow: 2px 2px 10px rgb(80, 78, 78);
-      margin-bottom: 1rem;
-      max-width: 100rem;
-      height: auto;
-    }
-
-    
-    p {
+    .p {
       border-top: 1px solid $base-light-darker;
     }
-    
-    .website-repo-links {
-      display: flex;
-      margin-top: 3rem;
-      text-align: center;
+  }
+
+  .project-img {
+    box-shadow: 2px 2px 10px rgb(80, 78, 78);
+    margin-bottom: 1rem;
+    max-width: 100rem;
+    height: auto;
+  }
   
-      :first-child {
-        margin-right: 2rem;
-      }
+  .sub-heading {
+    margin-top: 3rem;
+  }
+  
+  .website-repo-links {
+    display: flex;
+    margin-top: 3rem;
+    text-align: center;
+
+    :first-child {
+      margin-right: 2rem;
     }
   }
 
@@ -29,6 +32,10 @@
 
     .project-img {
       box-shadow: 1px 1px 5px rgb(80, 78, 78);
+    }
+
+    .sub-heading {
+      margin-top: 1rem;
     }
 
 }
