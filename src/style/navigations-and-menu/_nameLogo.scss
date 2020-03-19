@@ -6,7 +6,9 @@
   .logo {
     position: fixed;
     left: 2rem;
-    top: 2rem;
+    top: 2.2rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid $base-dark;
 
     color: $base-dark;
   }

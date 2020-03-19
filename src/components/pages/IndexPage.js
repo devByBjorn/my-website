@@ -8,7 +8,7 @@ const IndexPage = () => (
   <div>
     <NameLogo />
     <div className="container">
-      <main className="main-index-content margin-top-4">
+      <main className="main-index-content margin-top-8">
         <div className="clipArt-greeting-box">
 
           <Img

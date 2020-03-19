@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import MenuNav from '../components/menu/MenuNav'
 import AboutPage from '../components/pages/AboutPage'
 import ContactPage from '../components/pages/ContactPage'

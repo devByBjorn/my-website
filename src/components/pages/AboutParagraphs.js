@@ -20,7 +20,7 @@ export const whyFrontEnd = [whyFrontEndOne, whyFrontEndTwo, whyFrontEndThree]
 
 const whatIBringOne = "I spent about 10 years on customer focus-, business- and sales driven work related tasks. Four years in banking. The last three years was in a Nordic(sub-international) organization. An organization where I had daily contact and collaboration with people from all over the bank. "
 
-const whatIBringTwo = "This environment had a great impact on my ability to communicate in a free and clear way in both Swedish and English, but most important communicate with people of various backgrounds, ages and positions. From markets salespeople, retail bankers, private bankers, investment bankers to IT maintenance, developers, customer supporters, and many more. To communicate well I needed to understand others and what perspective they came from."
+const whatIBringTwo = "This environment had a great impact on my ability to communicate in a free and clear manner, with people of various backgrounds, ages and positions. From markets salespeople, retail bankers, private bankers, investment bankers to IT maintenance, developers and customer supporters, and many more. To communicate well I needed to understand others and what perspective they came from. An understanding I hold high today"
 
 const whatIBringThree = "These skills, communication and seeing things from others perspective, together with a pretty good problem-solving skill, a willingness to learn and contribute, and a goal to always stay humble, is what I bring to the table."
 

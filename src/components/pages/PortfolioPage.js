@@ -1,9 +1,9 @@
 import React from 'react'
 import { ProjectComponent } from './PortfolioPageItem'
-import projectOne from '../img/guess-the-capital.png'
-import projectTwo from '../img/pricing-component.PNG'
-import projectThree from '../img/the_pfqt.PNG'
-import projectFour from '../img/markets-in-time.png'
+import projectOne from '../img/guess-the-capital.jpg'
+import projectTwo from '../img/pricing-component.jpg'
+import projectThree from '../img/the_pfqt.jpg'
+import projectFour from '../img/markets-in-time.jpg'
 import HomeIcon from '../menu/HomeIcon'
 
 const PortfolioPage = () => (

@@ -38,10 +38,11 @@ module.exports = {
       ],
     }]
   },
-  devtool: 'cheap-module-eval-source-map',
+  // devtool: 'cheap-module-eval-source-map',
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     historyApiFallback: true
   },
-  mode: 'development'
+  // mode: 'development'
+  mode: 'production'
 }
