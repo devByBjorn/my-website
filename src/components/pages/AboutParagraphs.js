@@ -15,7 +15,7 @@ const whyFrontEndThree = "A big part of the charm with development, for me, is d
 export const whyFrontEnd = [whyFrontEndOne, whyFrontEndTwo, whyFrontEndThree]
 
 // WHAT I BRING TO THE TABLE
-const whatIBringOne = "I've been working on customer focus-, business- and sales driven related tasks for about 10 years. Four years of those in banking. The last three years was in a Nordic(sub-international) organization. An organization where I had daily contact and collaboration with people from all over the bank. "
+const whatIBringOne = "I've been working with customer focus-, business- and sales driven related tasks for about 10 years. Four years of those in banking. The last three years was in a Nordic, sub-international organization. An organization where I had daily contact and collaboration with people from all over the bank. "
 
 const whatIBringTwo = "This environment had a great impact on my ability to communicate in a free and clear manner, with people of various backgrounds, ages and positions. From markets salespeople, retail bankers, private bankers, investment bankers to IT maintenance, developers and customer supporters, and many more. To communicate well I needed to understand others and what perspective they came from. An understanding I hold high today"
 

@@ -1,4 +1,11 @@
-/* Style the accordion section */
+
+.about-heading {
+  display: inherit;
+  align-self: flex-start;
+  font-size: 2rem;
+  margin-top: -5rem;
+}
+
 .accordion-section {
   display: flex;
   flex-direction: column;

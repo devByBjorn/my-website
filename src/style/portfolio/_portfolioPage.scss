@@ -37,5 +37,10 @@
     .sub-heading {
       margin-top: 1rem;
     }
+}
 
+@media(min-width: 1220px) {
+  .project-container {
+    margin-top: 20rem;
+  }
 }

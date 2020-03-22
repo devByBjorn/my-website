@@ -10,7 +10,6 @@ const ContactPage = () => (
     <div className="container">
       <div className="contact-container">
         <div className="contact-logos">
-
           <div className="img gmail">
             <ul>
               <li>
