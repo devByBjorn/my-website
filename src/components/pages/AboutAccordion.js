@@ -10,10 +10,10 @@ const AboutAccordion = (props) => {
 
   const content = useRef(null);
 
-  const toggleAccordion = () => {
+  function toggleAccordion() {
     setActiveState(setActive === '' ? 'active' : '');
     setHeightState(
-      setActive === 'active' ? '0px' : `${content.current.scrollHeight + 10}px`
+      setActive === 'active' ? '0px' : `${content.current.scrollHeight}px`
     );
     setRotateState(
       setActive === 'active' ? 'icon' : 'icon rotate'
@@ -37,21 +37,13 @@ const AboutAccordion = (props) => {
         className='content'
       >
         <div>
-          {props.content.map((pContent, i) => <Paragraph className="p" text={pContent} key={props.heading} />)}
+          {props.content.map((pContent) => <Paragraph className="p" text={pContent} key={props.heading} />)}
         </div>
 
       </div>
     </div>
   );
 }
-
-// <div
-//   className='p'
-//   {props.}
-//   content={props.content}
-// dangerouslySetInnerHTML={{ __html: props.content }}
-// />
-
 
 
 export default AboutAccordion
