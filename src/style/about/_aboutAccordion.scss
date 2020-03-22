@@ -1,6 +1,7 @@
 /* Style the accordion section */
 .accordion-section {
   display: flex;
+  flex-direction: column;
 
   .accordion {
     align-items: center;
@@ -18,7 +19,6 @@
     background: transparent;
     border: none;
     border-bottom: 1px solid $base-light-darker;
-    text-align: left;
     width: 95%;
   }
 
