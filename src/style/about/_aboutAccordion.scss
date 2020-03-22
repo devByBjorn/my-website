@@ -4,7 +4,6 @@
   flex-direction: column;
 
   .accordion {
-    display: flex;
     align-items: center;
     background-color: transparent;
     border: none;
@@ -21,7 +20,7 @@
     border: none;
     border-bottom: 1px solid $base-light-darker;
     text-align: left;
-    width: 100%;
+    width: 95%;
   }
 
   .icon {
