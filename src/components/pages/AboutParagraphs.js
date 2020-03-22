@@ -1,7 +1,3 @@
-import React from 'react'
-import Paragraph from '../tags/Tags'
-// Paragrapgs
-
 // BACKSTORY
 const backstoryOne = "In the fall of 2019, I took a leap. I decided to change careers from banker to developer. By this time, I had already been learning and doing front end on the side for quite some time and I felt like this really was the thing I wanted to do. I still do, thank god. "
 
@@ -18,10 +14,11 @@ const whyFrontEndThree = "A big part of the charm with development, for me, is d
 
 export const whyFrontEnd = [whyFrontEndOne, whyFrontEndTwo, whyFrontEndThree]
 
+// WHAT I BRING TO THE TABLE
 const whatIBringOne = "I've been working on customer focus-, business- and sales driven related tasks for about 10 years. Four years of those in banking. The last three years was in a Nordic(sub-international) organization. An organization where I had daily contact and collaboration with people from all over the bank. "
 
 const whatIBringTwo = "This environment had a great impact on my ability to communicate in a free and clear manner, with people of various backgrounds, ages and positions. From markets salespeople, retail bankers, private bankers, investment bankers to IT maintenance, developers and customer supporters, and many more. To communicate well I needed to understand others and what perspective they came from. An understanding I hold high today"
 
-const whatIBringThree = "These skills, communication and seeing things from others perspective, together with a pretty good problem-solving skill, a willingness to learn and contribute, and a goal to always stay humble, is what I bring to the table."
+const whatIBringThree = "The above skills, communication and seeing things from others perspective, together with a pretty good problem-solving skill, a willingness to learn and contribute, and a goal to always stay humble, is what I bring to the table."
 
 export const whatIBring = [whatIBringOne, whatIBringTwo, whatIBringThree]

@@ -117,8 +117,14 @@
 }
 
 @media(min-width: 1220px) {
+
+
   .clipArt-greeting-box {
     margin-left: -10rem;
+  }
+
+  .greeting-item {
+    min-width: 40rem;
   }
 
   .short-bio {

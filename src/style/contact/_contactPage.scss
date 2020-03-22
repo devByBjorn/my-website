@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-bottom: -5rem;
   min-height: 95vh;
-  width: 102rem;
 }
 
 .contact-logos {
@@ -47,6 +47,11 @@
 }
 
 @media(min-width: 1220px) {
+
+  .contact-container {
+    width: 120rem;
+  }
+
   .contact-logos {
     justify-content: space-between;
 

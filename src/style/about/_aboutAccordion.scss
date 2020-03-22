@@ -6,24 +6,24 @@
   .accordion {
     display: flex;
     align-items: center;
-  
     background-color: transparent;
     border: none;
     cursor: pointer;
     display: flex;
     outline: none;
   }
-  
-  .sub-heading {
+
+  .sub-heading{
     display: flex;
     justify-content: space-between;
+
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $base-light-darker;
+    text-align: left;
     width: 100%;
-  
-    .img {
-      width:3rem
-    }
   }
-  
+
   .icon {
     color: $stand-out-one;
     font-size: 1rem;
