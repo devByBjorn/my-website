@@ -1,14 +1,14 @@
 
 .about-heading {
-  display: inherit;
-  align-self: flex-start;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: -5rem;
+  width: 95%;
 }
 
 .accordion-section {
   display: flex;
   flex-direction: column;
+  align-self: center;
 
   .accordion {
     background-color: transparent;

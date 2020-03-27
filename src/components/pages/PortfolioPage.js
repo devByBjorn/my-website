@@ -26,7 +26,7 @@ const PortfolioPage = () => (
         techHeading="Technologies"
         techContent="HTML | Sass | JavaScript | Webpack | Babel"
         aboutHeading="About"
-        aboutContent="A webiste tribute to the the movie Pulp Fiction. Generates qoutes from the film and let's you save your favorites. If you feel creative you can write, save and edit your own woutes as well"
+        aboutContent="A website tribute to the movie Pulp Fiction. Generates quotes from the film and lets you save your favorites. If you feel creative you can write, save and edit your own quotes as well."
         projectUrl="https://sharp-engelbart-11818a.netlify.com/"
         repoUrl="https://github.com/devByBjorn/the_PFQT"
       />
@@ -36,7 +36,7 @@ const PortfolioPage = () => (
         techHeading="Technologies"
         techContent="HTML | Sass | JavaScript | Webpack | Babel"
         aboutHeading="About"
-        aboutContent="HTML and CSS challange from frontendmentor.io. I choosed to do the functionality with JavaScript and added a minor feature; darken the active subscription period on toggle."
+        aboutContent="HTML and CSS challenge from frontendmentor.io. I chose to do the functionality with JavaScript and added a minor feature; darken the active subscription period on toggle."
         projectUrl="https://xenodochial-bartik-7585b3.netlify.com"
         repoUrl="https://github.com/devByBjorn/price_component"
       />
@@ -46,7 +46,7 @@ const PortfolioPage = () => (
         techHeading="Technologies"
         techContent="HTML | CSS | JavaScript"
         aboutHeading="About"
-        aboutContent="The classic Hangman game made into a geografical based guessing game, the user gets to guess capitals around the world"
+        aboutContent="The classic Hangman game made into a geographical based guessing game; the user gets to guess capitals around the world"
         projectUrl="https://romantic-elion-2f9c7c.netlify.com/"
         repoUrl="https://github.com/devByBjorn/markets_time"
       />

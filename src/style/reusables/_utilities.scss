@@ -36,9 +36,9 @@
 }
 
 .underline {
-  border-top: 5px solid $base-dark;
-  height: 5px;
-  max-width: 90rem;
+  border-top: 3px solid $base-dark;
+  margin-top: 7px;
+  max-width: 95%;
 }
 
 @media(max-width: 500px) {
@@ -53,10 +53,6 @@
 
   .p {
     font-size: 1.5rem;
-  }
-
-  .underline {
-    max-width: 80vw;
   }
 }
 

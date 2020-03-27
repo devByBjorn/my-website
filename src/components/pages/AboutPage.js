@@ -17,7 +17,11 @@ class AboutPage extends React.Component {
     return (
       <div>
         <HomeIcon />
-        <div className="container margin-top-4">
+        <div className="container">
+          <div className="about-heading">
+            <h2>If you like to get to know me a bit better, this is a great place to start. </h2>
+          </div>
+          <div className="underline" />
           <div className="accordion-container">
             <AboutAccordion
               heading='Backstory'
