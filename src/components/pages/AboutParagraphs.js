@@ -17,7 +17,7 @@ export const whyFrontEnd = [whyFrontEndOne, whyFrontEndTwo, whyFrontEndThree]
 // WHAT I BRING TO THE TABLE
 const whatIBringOne = "I've been working with customer focus-, business- and sales-driven related tasks for about 10 years. Four years of those in banking. The last three years was in a Nordic, sub-international organization. An organization where I had daily contact and collaboration with people all over the bank."
 
-const whatIBringTwo = "This environment had a great impact on my ability to communicate in a free and clear manner, with people of various backgrounds, ages and positions. From markets salespeople, retail bankers, private bankers, investment bankers to IT maintenance, developers and customer supporters. To communicate well with all these people I needed to understand others and what perspective they came from, a lesson and an understanding I hold high today."
+const whatIBringTwo = "This environment had a great impact on my ability to communicate in a free and clear manner, with people of various backgrounds, ages and positions. From markets salespeople, retail bankers, private bankers, investment bankers to IT maintenance, developers and customer supporters. To communicate well with these different people, I needed to understand others and what perspective they came from, a lesson and an understanding I hold high today."
 
 const whatIBringThree = "The above skills, communication and seeing things from others perspective, together with a pretty good problem-solving skill, a willingness to learn and contribute, and a goal to always stay humble, that is what I bring to the table."
 
