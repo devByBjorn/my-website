@@ -37,7 +37,11 @@ const AboutAccordion = (props) => {
         className='content'
       >
         <div>
-          {props.content.map((pContent) => <Paragraph className="p" text={pContent} key={props.heading} />)}
+          {props.content.map((pContent) =>
+            <Paragraph
+              className="p"
+              text={pContent}
+              key={props.heading} />)}
         </div>
 
       </div>
