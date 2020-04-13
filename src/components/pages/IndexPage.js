@@ -31,7 +31,6 @@ const IndexPage = () => (
       </main>
     </div>
   </div>
-
 )
 
 export default IndexPage

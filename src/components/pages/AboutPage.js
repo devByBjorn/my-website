@@ -6,6 +6,7 @@ import {
   whatIBring,
 } from './AboutParagraphs'
 import HomeIcon from '../menu/HomeIcon'
+
 class AboutPage extends React.Component {
   state = {
     backstory: backstory,
@@ -37,28 +38,6 @@ class AboutPage extends React.Component {
     )
   }
 }
-
-// const AboutPage = (props) => (
-//   <div>
-//     <div className="container">
-//       <div className="accordion-container">
-//         <AboutAccordion
-//           heading='Backstory'
-//           content={backstory}
-//         />
-//         <AboutAccordion
-//           heading='Why Front-End?'
-//           content={whyFrontEnd}
-//         />
-//         <AboutAccordion
-//           heading='What I Bring to the Table'
-//           content={[whatIBringOne, whatIBringTwo]}
-//         />
-//       </div>
-//     </div>
-//   </div>
-// )
-
 
 export default AboutPage
 

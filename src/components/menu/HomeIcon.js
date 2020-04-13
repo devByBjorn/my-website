@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import homeCave from '../img/icons8-cave-48.png'
 
-const HomeIcon = (props) => (
+const HomeIcon = () => (
   <div className="home-icon img">
     <NavLink to="/">
       <img

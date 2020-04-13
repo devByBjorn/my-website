@@ -4,37 +4,37 @@ import { Paragraph } from '../tags/Tags'
 
 
 const AboutAccordion = (props) => {
-  const [setActive, setActiveState] = useState('');
-  const [setHeight, setHeightState] = useState('0px');
-  const [setRotate, setRotateState] = useState('icon');
+  const [isActive, setIsActive] = useState('');
+  const [height, setHeight] = useState('0px');
+  const [rotateIcon, setRotateIcon] = useState('icon');
 
   const content = useRef(null);
 
-  function toggleAccordion() {
-    setActiveState(setActive === '' ? 'active' : '');
-    setHeightState(
-      setActive === 'active' ? '0px' : `${content.current.scrollHeight}px`
-    );
-    setRotateState(
-      setActive === 'active' ? 'icon' : 'icon rotate'
-    );
+  const toggleAccordion = () => {
+    setIsActive(isActive === '' ? 'active' : '')
+    setHeight(
+      isActive === 'active' ? '0px' : `${content.current.scrollHeight}px`
+    )
+    setRotateIcon(
+      isActive === 'active' ? 'icon' : 'icon rotate'
+    )
   }
 
   return (
     <div className='accordion-section'>
-      <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
+      <button className={`accordion ${isActive}`} onClick={toggleAccordion}>
         <h3
           className='sub-heading'>{props.heading}
           <Chevron
-            className={`${setRotate} chevron`}
+            className={`${rotateIcon} chevron`}
             width={7}
             fill={'#ff8e0f'} />
         </h3>
       </button>
       <div
-        ref={content}
-        style={{ maxHeight: `${setHeight}` }}
         className='content'
+        ref={content}
+        style={{ maxHeight: `${height}` }}
       >
         <div>
           {props.content.map((pContent) =>

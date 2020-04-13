@@ -48,7 +48,7 @@ const PortfolioPage = () => (
         aboutHeading="About"
         aboutContent="The classic Hangman game made into a geographical based guessing game; the user gets to guess capitals around the world"
         projectUrl="https://romantic-elion-2f9c7c.netlify.com/"
-        repoUrl="https://github.com/devByBjorn/markets_time"
+        repoUrl="https://github.com/devByBjorn/Guess_the_capital"
       />
     </div>
   </div>
