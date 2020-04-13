@@ -17,10 +17,12 @@
 
 .current-page {
   align-self: flex-end;
-  border-bottom: 2px solid $stand-out-one;
+  background: $stand-out-one;
+  color: $base-light;
   font-size: 2rem;
   height: 100%;
   margin-left: 5px;
+  padding: 1px 4px;
 }
 
 @media(min-width: 1220px) {
