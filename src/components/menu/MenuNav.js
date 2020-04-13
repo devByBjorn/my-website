@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import MenuNavBtn from './MenuNavBtn'
-import fullYear from './CurrentYear'
 
 class MenuNav extends React.Component {
   constructor(props) {

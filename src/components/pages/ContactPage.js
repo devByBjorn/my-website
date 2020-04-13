@@ -4,9 +4,11 @@ import gmail from '../img/gmailcloudbig.svg'
 import HomeIcon from '../menu/HomeIcon'
 import { Img } from '../tags/Tags'
 
-const ContactPage = () => (
+const ContactPage = ({ location }) => (
   <div>
-    <HomeIcon />
+    <HomeIcon
+      pagePath={location.pathname}
+    />
     <div className="container">
       <div className="contact-container">
         <div className="contact-logos">

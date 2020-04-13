@@ -11,12 +11,18 @@ const AboutAccordion = (props) => {
   const content = useRef(null);
 
   const toggleAccordion = () => {
-    setIsActive(isActive === '' ? 'active' : '')
+    setIsActive(isActive === ''
+      ? 'active'
+      : '')
     setHeight(
-      isActive === 'active' ? '0px' : `${content.current.scrollHeight}px`
+      isActive === 'active'
+        ? '0px'
+        : `${content.current.scrollHeight}px`
     )
     setRotateIcon(
-      isActive === 'active' ? 'icon' : 'icon rotate'
+      isActive === 'active'
+        ? 'icon'
+        : 'icon rotate'
     )
   }
 

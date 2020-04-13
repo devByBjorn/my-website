@@ -1,5 +1,5 @@
 .name {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 100;
   z-index: $nameAndHomeLogo;
 
@@ -8,8 +8,8 @@
     left: 2rem;
     top: 2.2rem;
     padding-bottom: .5rem;
-    border-bottom: 2px solid $base-dark;
-
+    border-bottom: 2px solid $stand-out-one;
+    z-index: $nameAndHomeLogo;
     color: $base-dark;
   }
 }

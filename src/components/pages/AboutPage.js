@@ -17,7 +17,9 @@ class AboutPage extends React.Component {
   render() {
     return (
       <div>
-        <HomeIcon />
+        <HomeIcon
+          pagePath={this.props.location.pathname}
+        />
         <div className="container">
           <div className="accordion-container">
             <AboutAccordion

@@ -6,9 +6,11 @@ import projectThree from '../img/the_pfqt.jpg'
 import projectFour from '../img/markets-in-time.jpg'
 import HomeIcon from '../menu/HomeIcon'
 
-const PortfolioPage = () => (
+const PortfolioPage = ({ location }) => (
   <div>
-    <HomeIcon />
+    <HomeIcon
+      pagePath={location.pathname}
+    />
     <div className="container">
       <ProjectComponent
         src={projectFour}
