@@ -11,7 +11,7 @@
   align-self: center;
 
   .accordion {
-    background-color: transparent;
+    background: transparent;
     border: none;
     cursor: pointer;
     display: flex;
@@ -22,8 +22,8 @@
       position: relative;
 
       background: transparent;
-      border: none;
-      border-bottom: 1px solid $base-light-darker;
+      border-bottom: 2px solid $stand-out-one;
+      color: $base-dark;
       width: 95%;
     }  
 
@@ -32,8 +32,7 @@
       bottom: 1rem;
       right: 1rem;
 
-      color: $stand-out-one;
-      font-size: 1rem;
+      color: $base-dark;
       transition: transform 0.6s ease;
     }
   }

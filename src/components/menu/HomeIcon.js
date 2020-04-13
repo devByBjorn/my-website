@@ -5,7 +5,7 @@ import CurrentPage from '../url-location/CurrentPage'
 
 const HomeAndCurrentPage = (props) => (
   <div className="home-and-current-page">
-    <div className="home-icon img">
+    {  /*  <div className="home-icon img">
       <NavLink
         to="/"
       >
@@ -14,7 +14,7 @@ const HomeAndCurrentPage = (props) => (
           alt="Icon of a cave, link to startpage"
         />
       </NavLink>
-    </div>
+</div>*/}
     <CurrentPage
       className="current-page"
       pagePath={props.pagePath}

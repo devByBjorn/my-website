@@ -33,8 +33,7 @@ const AboutAccordion = (props) => {
           className='sub-heading'>{props.heading}
           <Chevron
             className={`${rotateIcon} chevron`}
-            width={7}
-            fill={'#ff8e0f'} />
+            width={10} />
         </h3>
       </button>
       <div

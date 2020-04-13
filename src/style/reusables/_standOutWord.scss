@@ -1,5 +1,10 @@
 .stand-out-word {
   background-color: $stand-out-one;
   color: $base-light;
-  padding: 0 2px;
+  padding: 2px 4px;
+  transition: padding .2s ease-in-out;
+}
+
+.stand-out-word:hover {
+  padding: 8px 4px;
 }

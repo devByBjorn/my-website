@@ -1,7 +1,7 @@
 .home-and-current-page {
   position: fixed;
   left: 2rem;
-  top: 1.6rem;
+  top: 2.2rem;
 
   background: transparent;
   height: auto;
@@ -17,12 +17,12 @@
 
 .current-page {
   align-self: flex-end;
-  background: $stand-out-one;
-  color: $base-light;
+  // background: $stand-out-one;
+  // color: $base-light;
+  color: $base-dark;
+    border-bottom: 2px solid $stand-out-one;
   font-size: 2rem;
-  height: 100%;
-  margin-left: 5px;
-  padding: 1px 4px;
+  padding-bottom: .5rem;
 }
 
 @media(min-width: 1220px) {
