@@ -23,7 +23,7 @@ const IndexPage = () => (
         </div>
 
         <div className="short-bio">
-          <p className="p">Lately I've taken on to learn the sweet since of boxing. Also, I’m continuously learning how to build and style stuff for the web. . If you're interested; check out my <NavLink to="/portfolio" className="stand-out-word">portfolio</NavLink>, or go directly to my <a href="https://github.com/devByBjorn" target="blank"><span className="stand-out-word">GitHub</span></a> page.</p>
+          <p className="p">Lately I've taken on to learn the sweet since of boxing. Also, I’m continuously learning how to build and style stuff for the web. If you're interested; check out my <NavLink to="/portfolio" className="stand-out-word">portfolio</NavLink>, or go directly to my <a href="https://github.com/devByBjorn" target="blank"><span className="stand-out-word">GitHub</span></a> page.</p>
 
           <p className="p">Like to come in contact? Don't
         hesitate to send me an <a href="mailto:devbybjorn@gmail.com"><span className="stand-out-word">email</span></a>.</p>

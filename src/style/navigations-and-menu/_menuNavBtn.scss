@@ -7,10 +7,6 @@
   z-index: $menuBtn;
 }
 
-.nav-menu-btn:hover {
-  cursor: pointer;
-}
-
 @media(min-width: 850px) {
   .nav-menu-btn {
     top: 10rem;

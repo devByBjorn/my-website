@@ -1,11 +1,14 @@
 .stand-out-word {
   background-color: $stand-out-one;
+  // border: 1px solid transparent;
   color: $base-light;
   padding: 2px 4px;
+  text-decoration: underline transparent;
   transition: all .2s ease-in;
 }
 
 .stand-out-word:hover {
   background-color: $base-light;
+  // border: 1px solid;
   color: $stand-out-one;
 }
