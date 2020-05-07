@@ -4,6 +4,7 @@ import projectOne from '../img/guess-the-capital.jpg'
 import projectTwo from '../img/pricing-component.jpg'
 import projectThree from '../img/the_pfqt.jpg'
 import projectFour from '../img/markets-in-time.jpg'
+import projectFive from '../img/edgepusher.jpg'
 import HomeIcon from '../menu/HomeIcon'
 
 const PortfolioPage = ({ location }) => (
@@ -12,6 +13,16 @@ const PortfolioPage = ({ location }) => (
       pagePath={location.pathname}
     />
     <div className="container">
+      <ProjectComponent
+        src={projectFive}
+        heading="EdgePusher"
+        techHeading="Technologies"
+        techContent="React | SCSS | Styled Components | Webpack | Babel | Firebase"
+        aboutHeading="About"
+        aboutContent="An application aimed to trades just starting out. EdgePusher lets you log all your trades and delivers relevant statistics that helps you identify where you true edge in the market lies."
+        projectUrl="http://www.edgepusher.com/"
+        repoUrl="https://github.com/devByBjorn/The-Risk-Reward-app"
+      />
       <ProjectComponent
         src={projectFour}
         heading="Markets in Time"
