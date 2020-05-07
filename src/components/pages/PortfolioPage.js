@@ -15,7 +15,7 @@ const PortfolioPage = ({ location }) => (
     <div className="container">
       <ProjectComponent
         src={projectFive}
-        heading="EdgePusher"
+        heading="EdgePusher (beta)"
         techHeading="Technologies"
         techContent="React | SCSS | Styled Components | Webpack | Babel | Firebase"
         aboutHeading="About"
