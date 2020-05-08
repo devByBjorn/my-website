@@ -4,7 +4,7 @@ import projectOne from '../img/guess-the-capital.jpg'
 import projectTwo from '../img/pricing-component.jpg'
 import projectThree from '../img/the_pfqt.jpg'
 import projectFour from '../img/markets-in-time.jpg'
-import projectFive from '../img/edgepusher.jpg'
+import projectFive from '../img/edge-pusher.jpg'
 import HomeIcon from '../menu/HomeIcon'
 
 const PortfolioPage = ({ location }) => (
