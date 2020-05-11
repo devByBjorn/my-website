@@ -19,7 +19,7 @@ const PortfolioPage = ({ location }) => (
         techHeading="Technologies"
         techContent="React | SCSS | Styled Components | Webpack | Babel | Firebase"
         aboutHeading="About"
-        aboutContent="An application aimed to traders just starting out. EdgePusher lets you log all your trades and delivers relevant statistics that helps you identify where your true edge in the market lies."
+        aboutCoFntent="An application aimed to traders just starting out. EdgePusher lets you log all your trades and delivers relevant statistics that helps you identify where your true edge in the market lies."
         projectUrl="http://www.edgepusher.com/"
         repoUrl="https://github.com/devByBjorn/The-Risk-Reward-app"
       />
@@ -35,7 +35,7 @@ const PortfolioPage = ({ location }) => (
       />
       <ProjectComponent
         src={projectThree}
-        heading="The Pulp Fiction Qoute Tribute"
+        heading="The Pulp Fiction Quote Tribute"
         techHeading="Technologies"
         techContent="HTML | Sass | JavaScript | Webpack | Babel"
         aboutHeading="About"
