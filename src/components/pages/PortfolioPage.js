@@ -5,6 +5,7 @@ import projectTwo from '../img/pricing-component.jpg'
 import projectThree from '../img/the_pfqt.jpg'
 import projectFour from '../img/markets-in-time.jpg'
 import projectFive from '../img/edge-pusher.jpg'
+import projectSix from '../img/where-in-the-world.jpg'
 import HomeIcon from '../menu/HomeIcon'
 
 const PortfolioPage = ({ location }) => (
@@ -14,12 +15,22 @@ const PortfolioPage = ({ location }) => (
     />
     <div className="container">
       <ProjectComponent
+        src={projectSix}
+        heading="Where In the World?"
+        techHeading="Technologies"
+        techContent="React | Styled Components | Webpack | Babel | REST"
+        aboutHeading="About"
+        aboutContent="Challange from frontendmentor.io. Learned alot by working with REST Countries API, got a hang of Styled Components and found out how to create a dark/light switch with Hooks."
+        projectUrl="https://search-world.herokuapp.com/"
+        repoUrl="https://github.com/devByBjorn/where-in-the-world"
+      />
+      <ProjectComponent
         src={projectFive}
         heading="EdgePusher (beta)"
         techHeading="Technologies"
-        techContent="React | SCSS | Styled Components | Webpack | Babel | Firebase"
+        techContent="React | Sass | Styled Components | Webpack | Babel | Firebase"
         aboutHeading="About"
-        aboutCoFntent="An application aimed to traders just starting out. EdgePusher lets you log all your trades and delivers relevant statistics that helps you identify where your true edge in the market lies."
+        aboutContent="EdgePusher lets you log all your trades and delivers relevant statistics that helps you identify where your true edge in the market lies. I learned alot of React here, how to handle state with Redux and also how to work with a firebase database."
         projectUrl="http://www.edgepusher.com/"
         repoUrl="https://github.com/devByBjorn/The-Risk-Reward-app"
       />

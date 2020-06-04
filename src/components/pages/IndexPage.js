@@ -18,7 +18,7 @@ const IndexPage = () => (
           />
 
           <div className="greeting-item">
-            <h2><span className="hi">Hi</span>, I'm Björn. I'm a <span className="profession">Front-End Developer</span> fitness enthusiast & learner of things. </h2>
+            <h2><span className="hi">Hi</span>, I'm Björn. I'm a <span className="profession">Developer</span> fitness enthusiast & learner of things. </h2>
           </div>
         </div>
 
