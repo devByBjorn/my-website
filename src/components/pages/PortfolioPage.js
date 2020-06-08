@@ -20,7 +20,7 @@ const PortfolioPage = ({ location }) => (
         techHeading="Technologies"
         techContent="React | Styled Components | Webpack | Babel | REST"
         aboutHeading="About"
-        aboutContent="Challenge from frontendmentor.io, where the idea is to mimic real workflow. I was given a description of what functionality the app should have and a set design to follow when styling. Learned a lot working with a REST API, got a hang of Styled Components and how to create a dark/light switch with Hooks. "
+        aboutContent="Challenge from frontendmentor.io, where the idea is to mimic real workflow. I was given a description of what functionality the app should have and a set design to follow when styling. Learned a lot working with a REST API, got a hang of Styled Components and how to create a dark/light switch with Hooks. (The initial load of the page can be slow due to how the heroku server works, please be patient)"
         projectUrl="https://search-world.herokuapp.com/"
         repoUrl="https://github.com/devByBjorn/where-in-the-world"
       />
@@ -30,7 +30,7 @@ const PortfolioPage = ({ location }) => (
         techHeading="Technologies"
         techContent="React | Sass | Styled Components | Webpack | Babel | Firebase"
         aboutHeading="About"
-        aboutContent="EdgePusher lets you log all your trades and delivers relevant statistics that helps you identify where your true edge in the market lies. I learned alot of React here, how to handle state with Redux and also how to work with a firebase database."
+        aboutContent="EdgePusher lets you log all your trades and delivers relevant statistics that helps you identify where your true edge in the market lies. I learned alot of React here, how to handle state with Redux and also how to work with a firebase database. (The initial load of the page can be slow due to how the heroku server works, please be patient)"
         projectUrl="http://www.edgepusher.com/"
         repoUrl="https://github.com/devByBjorn/The-Risk-Reward-app"
       />
