@@ -8,8 +8,6 @@ import PortfolioPage from '../components/pages/PortfolioPage'
 import Page404 from '../components/pages/Page404'
 import MobileTopBackground from '../components/menu/MobileTopBackground'
 
-// <Route path="/resume" component={ResumePage} />
-
 const AppRouter = () => (
   <BrowserRouter>
 
