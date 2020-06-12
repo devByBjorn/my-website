@@ -20,8 +20,8 @@ const PortfolioPage = ({ location }) => (
         techHeading="Technologies"
         techContent="React | Styled Components | Webpack | Babel | REST"
         aboutHeading="About"
-        aboutContent="Challenge from frontendmentor.io, where the idea is to mimic real workflow. I was given a description of what functionality the app should have and a set design to follow when styling. Learned a lot working with a REST API, got a hang of Styled Components and how to create a dark/light switch with Hooks. (The initial load of the page can be slow due to how the heroku server works, please be patient)"
-        projectUrl="https://search-world.herokuapp.com/"
+        aboutContent="Challenge from frontendmentor.io, where the idea is to mimic real workflow. I was given a description of what functionality the app should have and a set design to follow when styling. Learned a lot working with a REST API, got a hang of Styled Components and how to create a dark/light switch with Hooks."
+        projectUrl="https://quizzical-payne-41efad.netlify.app/"
         repoUrl="https://github.com/devByBjorn/where-in-the-world"
       />
       <ProjectComponent

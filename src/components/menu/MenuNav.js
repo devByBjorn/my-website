@@ -43,11 +43,8 @@ const MenuNav = () => {
       />
       <nav
         className='main-nav'
-        style={{
-          width: width,
-        }}
+        style={{ width: width }}
       >
-
         <ul>
           <li>
             <NavLink exact to="/" activeClassName="current"
