@@ -11,14 +11,8 @@ const IndexPage = () => (
       <main className="main-index-content margin-top-8">
         <div className="clipArt-greeting-box">
 
-          <Img
-            className="clipArt-item"
-            src={clipArt}
-            alt="clipArt of a cute bear"
-          />
-
           <div className="greeting-item">
-            <h2><span className="hi">Hi</span>, I'm Björn. I'm a <span className="profession">Developer</span> fitness enthusiast & learner of things. </h2>
+            <h2><span className="hi">Hi</span>, I'm Björn. I'm a <span className="profession">developer</span>, fitness enthusiast and finance geek.</h2>
           </div>
         </div>
 
@@ -34,3 +28,12 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+/*
+
+<Img
+            className="clipArt-item"
+            src={clipArt}
+            alt="clipArt of a cute bear"
+          />
+*/

@@ -16,7 +16,7 @@ const AppRouter = () => (
       <MenuNav />
       <Switch>
         <Route exact path="/" component={IndexPage} />
-        <Route path="/about" component={AboutPage} />
+        {/*<Route path="/about" component={AboutPage} />*/}
         <Route path="/portfolio" component={PortfolioPage} />
         <Route path="/contact" component={ContactPage} />
         <Route component={Page404} />

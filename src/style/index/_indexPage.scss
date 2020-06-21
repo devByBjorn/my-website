@@ -2,18 +2,19 @@
     align-items: flex-end;
     display: flex;
     font-weight: bolder;
-    margin-left: -7rem;
+
+    /*margin-left: -7rem;*/
   
-    .clipArt-item {
+    /* .clipArt-item {
       min-width: 15rem;
       max-width:30rem;
       height: auto;
-    }
+    }*/
 
     .greeting-item {
       font-size: 4.25rem;
-      max-width: 55rem;
-      padding: 1.75rem;
+      max-width: 65rem;
+      //padding: 1.75rem;
       padding-bottom: .5rem;
   
       .hi {
@@ -31,12 +32,11 @@
     font-size: 2.5rem;
     line-height: 1.5;
     margin-top: 3rem;
-    max-width: 95rem;
-   
+    max-width: 85rem;
 
-    .p {
+    /*.p {
       padding-right: 2rem;
-    }
+    }*/
   }
 
 
@@ -50,9 +50,9 @@
     .clipArt-greeting-box {
       margin-left: 0rem;
     
-      .clipArt-item {
+      /*.clipArt-item {
         display: none;
-      }
+      }*/
   
       .greeting-item {
         font-size: 1.8rem;
@@ -111,9 +111,9 @@
 @media(min-width: 1220px) {
 
 
-  .clipArt-greeting-box {
-    margin-left: -10rem;
-  }
+  // .clipArt-greeting-box {
+  //   margin-left: -10rem;
+  // }
 
   .greeting-item {
     min-width: 40rem;

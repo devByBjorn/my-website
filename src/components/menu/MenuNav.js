@@ -34,7 +34,6 @@ const MenuNav = () => {
   }, [])
 
 
-
   return (
     <div ref={node}>
       <MenuNavBtn
@@ -50,10 +49,10 @@ const MenuNav = () => {
             <NavLink exact to="/" activeClassName="current"
               className="nav-link">Home</NavLink>
           </li>
-          <li>
+          {/*<li>
             <NavLink to="/about" activeClassName="current"
               className="nav-link">About</NavLink>
-          </li>
+         </li>*/}
           <li>
             <NavLink to="/portfolio" activeClassName="current"
               className="nav-link">Portfolio</NavLink>
@@ -66,7 +65,6 @@ const MenuNav = () => {
       </nav>
     </div>
   )
-
 }
 
 export default MenuNav
