@@ -20,7 +20,7 @@ const PortfolioPage = ({ location }) => (
         techHeading="Technologies"
         techContent="React | Styled Components | Webpack | Babel | REST"
         aboutHeading="About"
-        aboutContent="Challenge from frontendmentor.io, where the idea is to mimic real workflow. I was given a description of what functionality the app should have and a set design to follow when styling. Learned a lot working with a REST API, got a hang of Styled Components and how to create a dark/light switch with Hooks."
+        aboutContent="Challenge from frontendmentor.io where the idea is to mimic real workflow. I was given a description of what functionality the app should have and a set design to follow when styling. Learned a lot working with a REST API, got a hang of Styled Components and how to create a dark/light switch with Hooks."
         projectUrl="https://quizzical-payne-41efad.netlify.app/"
         repoUrl="https://github.com/devByBjorn/where-in-the-world"
       />
@@ -40,7 +40,7 @@ const PortfolioPage = ({ location }) => (
         techHeading="Technologies"
         techContent="HTML | CSS | JavaScript | Webpack | Babel"
         aboutHeading="About"
-        aboutContent="A website focused on delivering an easy overview of time, market hours and opening info of various stock markets around the world. Got a real good understanding of wirking with time in JavaScript with the third pary library moment.js"
+        aboutContent="A website focused on delivering an easy overview of time, market hours and opening info of various stock markets around the world. Got a real good understanding of working with time in JavaScript with the third pary library moment.js"
         projectUrl="https://www.marketsintime.com/"
         repoUrl="https://github.com/devByBjorn/markets_time"
       />
