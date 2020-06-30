@@ -40,5 +40,5 @@
 .snake:hover::after {
   border-bottom-color: $stand-out-one;
   border-left-color: $stand-out-one;
-  transition: border-color 0s ease-out 0.5s, width 0.15s ease-out 0.5s, height 0.15s ease-out 0.75s;
+  transition: border-color 0s ease-out 0.2s, width 0.15s ease-out 0.2s, height 0.15s ease-out 0.5s;
 }

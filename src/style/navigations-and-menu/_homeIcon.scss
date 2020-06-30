@@ -2,6 +2,7 @@
   position: fixed;
   left: 2rem;
   top: 2.2rem;
+  
 
   background: transparent;
   height: auto;
@@ -13,20 +14,14 @@
   border-bottom: 2px solid $base-dark;
   z-index: $nameAndHomeLogo;
   width:3rem;
+  margin-right: .5rem;
 }
 
 .current-page {
   align-self: flex-end;
-  // background: $stand-out-one;
-  // color: $base-light;
   color: $base-dark;
-    border-bottom: 2px solid $stand-out-one;
+  border-bottom: 2px solid $stand-out-one;
   font-size: 2rem;
   padding-bottom: .5rem;
 }
 
-@media(min-width: 1220px) {
-  .home-icon {
-    width:4rem;
-  }
-}

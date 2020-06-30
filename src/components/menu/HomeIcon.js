@@ -3,6 +3,13 @@ import { NavLink } from 'react-router-dom'
 import homeCave from '../img/icons8-cave-48.png'
 import CurrentPage from '../url-location/CurrentPage'
 
+/* 
+ <CurrentPage
+      className="current-page"
+      pagePath={pagePath}
+    />
+*/
+
 const HomeAndCurrentPage = ({ pagePath }) => (
   <div className="home-and-current-page">
     <CurrentPage
